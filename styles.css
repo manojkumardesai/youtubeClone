@@ -76,9 +76,9 @@ a {
 .video-title {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: .5rem;
     text-decoration: none;
     color: black;
+    margin-bottom: 0.4rem;
 }
 
 .video-channel-name {
@@ -95,6 +95,9 @@ a {
 
 .video-channel-name, .video-metadata {
     color: #555;
+}
+.video-metadata {
+    font-size: 14px;
 }
 
 .video-section-title {
