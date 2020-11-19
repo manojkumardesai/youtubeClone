@@ -13,42 +13,256 @@
 </head>
 <body>
     <header class="header">
-        <span class="material-icons desktop-icon">
-            menu
-        </span>
-        <a href="#">
-            <img src="logo.png" alt="YouTube Logo" class="youtube-logo">
-        </a>
-        <form class="search-bar">
-            <input type="search" class="search-input" placeholder="Search" aria-label="Search">
-            <button type="submit" class="search-btn">
-                <img src="magnify.svg">
-            </button>
-        </form>
-        <div class="menu-icons">
-            <a href="#" class="mobile-icon">
-                <img src="magnify.svg" alt="Search Video">
+        <div class="start">
+            <span class="material-icons desktop-icon guide-btn">
+                menu
+            </span>
+            <a href="#" class="logo-container">
+                <img src="logo.png" alt="YouTube Logo" class="youtube-logo">
             </a>
-            <a href="#" class="desktop-icon">
-                <img src="video-plus.svg" alt="Upload Video">
-            </a>
-            <a href="#" class="desktop-icon">
-                <img src="apps.svg" alt="Apps">
-            </a>
-            <a href="#" class="desktop-icon">
-                <img src="bell.svg" alt="Notifications">
-            </a>
-            <a href="#">
-                <img src="http://unsplash.it/36/36?gravity=center" alt="Your Channel" class="menu-channel-icon">
-            </a>
+        </div>
+        <div class="centre">
+            <form class="search-bar">
+                <input type="search" class="search-input" placeholder="Search" aria-label="Search">
+                <button type="submit" class="search-btn">
+                    <span class="material-icons">
+                        search
+                    </span>
+                </button>
+            </form>
+        </div>
+        <div class="end">
+            <div class="menu-icons">
+                <a href="#" class="mobile-icon">
+                    <span class="material-icons">
+                        search
+                    </span>
+                </a>
+                <a href="#" class="desktop-icon">
+                    <span class="material-icons">
+                        video_call
+                    </span>
+                </a>
+                <a href="#" class="desktop-icon">
+                    <span class="material-icons">
+                        apps
+                    </span>
+                </a>
+                <a href="#" class="desktop-icon">
+                    <span class="material-icons">
+                        notifications
+                    </span>
+                </a>
+                <a href="#">
+                    <img src="http://unsplash.it/36/36?gravity=center" alt="Your Channel" class="menu-channel-icon">
+                </a>
+            </div>
         </div>
     </header>
     <div class="youtube-body">
         <div class="navbar">
-            Nav Bar
+            <div class="items">
+                <div class="item">
+                    <a href="" class="option home-option">
+                        <span class="material-icons home-icon option-icon">
+                            home
+                        </span>
+                        <span class="home-text option-text">
+                            Home
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            local_fire_department
+                        </span>
+                        <span class="home-text option-text">
+                            Trending
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            subscriptions
+                        </span>
+                        <span class="home-text option-text">
+                            Subscriptions
+                        </span>
+                    </a>
+                </div>
+                <div class="item items-seperator">
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            video_library
+                        </span>
+                        <span class="home-text option-text">
+                            Library
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            history
+                        </span>
+                        <span class="home-text option-text">
+                            History
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            slideshow
+                        </span>
+                        <span class="home-text option-text">
+                            Your videos
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            local_offer
+                        </span>
+                        <span class="home-text option-text">
+                            Purchases
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            watch_later
+                        </span>
+                        <span class="home-text option-text">
+                            Watch later
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            expand_more
+                        </span>
+                        <span class="home-text option-text">
+                            Show more
+                        </span>
+                    </a>
+                </div>
+                <div class="item items-seperator">
+                    <span class="items-section-header">SUBSCRIPTIONS</span>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            admin_panel_settings
+                        </span>
+                        <span class="home-text option-text">
+                            Figma
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            add_shopping_cart
+                        </span>
+                        <span class="home-text option-text">
+                            Low Level Javascript
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            android
+                        </span>
+                        <span class="home-text option-text">
+                            Android Channel
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            camera_enhance
+                        </span>
+                        <span class="home-text option-text">
+                            Photography tutorials
+                        </span>
+                    </a>
+                    <a href="" class="option">
+                        <span class="material-icons option-icon">
+                            add_circle
+                        </span>
+                        <span class="home-text option-text">
+                            Browse channels
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="videos">
             <section class="video-section">
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="12:00">
+                        <img src="http://unsplash.it/375/210?gravity=center" alt="" class="thumbnail-image">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="">
+                            <img src="http://unsplash.it/36/36?gravity=center" alt="" class="channel-icon">
+                        </a>
+                        <div class="video-details">
+                            <a href="#" class="video-title">Video Title</a>
+                            <a href="#" class="video-channel-name">Channel Name</a>
+                            <div class="video-metadata">
+                                <span class="mobile-icon">
+                                    <span>Channel Name</span>
+                                    •
+                                </span>
+                                <span>12K Views</span>
+                                •
+                                <span>1 week ago</span>
+                            </div>
+                        </div>
+                        <span class="material-icons">
+                            more_vert
+                        </span>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="12:00">
+                        <img src="http://unsplash.it/375/210?gravity=center" alt="" class="thumbnail-image">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="">
+                            <img src="http://unsplash.it/36/36?gravity=center" alt="" class="channel-icon">
+                        </a>
+                        <div class="video-details">
+                            <a href="#" class="video-title">Video Title</a>
+                            <a href="#" class="video-channel-name">Channel Name</a>
+                            <div class="video-metadata">
+                                <span class="mobile-icon">
+                                    <span>Channel Name</span>
+                                    •
+                                </span>
+                                <span>12K Views</span>
+                                •
+                                <span>1 week ago</span>
+                            </div>
+                        </div>
+                        <span class="material-icons">
+                            more_vert
+                        </span>
+                    </div>
+                </article>
+                <article class="video-container">
+                    <a href="#" class="thumbnail" data-duration="12:00">
+                        <img src="http://unsplash.it/375/210?gravity=center" alt="" class="thumbnail-image">
+                    </a>
+                    <div class="video-bottom-section">
+                        <a href="">
+                            <img src="http://unsplash.it/36/36?gravity=center" alt="" class="channel-icon">
+                        </a>
+                        <div class="video-details">
+                            <a href="#" class="video-title">Video Title</a>
+                            <a href="#" class="video-channel-name">Channel Name</a>
+                            <div class="video-metadata">
+                                <span class="mobile-icon">
+                                    <span>Channel Name</span>
+                                    •
+                                </span>
+                                <span>12K Views</span>
+                                •
+                                <span>1 week ago</span>
+                            </div>
+                        </div>
+                        <span class="material-icons">
+                            more_vert
+                        </span>
+                    </div>
+                </article>
                 <article class="video-container">
                     <a href="#" class="thumbnail" data-duration="12:00">
                         <img src="http://unsplash.it/375/210?gravity=center" alt="" class="thumbnail-image">
@@ -342,7 +556,7 @@
                     </div>
                 </article>
             </section>
-            <section class="video-section">
+            <!-- <section class="video-section">
                 <article class="video-container">
                     <a href="#" class="thumbnail" data-duration="12:00">
                         <img src="http://unsplash.it/375/210?gravity=center" alt="" class="thumbnail-image">
@@ -499,7 +713,7 @@
                         </span>
                     </div>
                 </article>
-            </section>
+            </section> -->
         </div>
     </div>
     
